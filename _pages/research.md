@@ -5,31 +5,9 @@ sitemap: false
 permalink: /research/
 ---
 
-<!-- <style> -->
-<!-- iframe { -->
-<!--   height: 100%; -->
-<!--   width: 175px !important; -->
-<!--   display: inline; -->
-<!--   vertical-align:middle; -->
-<!--   margin:0px !important; -->
-<!--   padding:0px !important; -->
-<!--   width: 175px; -->
-<!--   display: inline; -->
-<!--   vertical-align:middle; -->
-<!--   border: 1px solid red; -->
-<!-- } -->
-<!-- .col-md-3 { -->
-<!--   margin:0px !important; -->
-<!--   padding:0px !important; -->
-<!--   overflow:hidden; -->
-<!--   display: table-cell; -->
-<!--   text-align:center; -->
-<!--   background: white; -->
-<!--   width: 175px; -->
-<!--   border: 0px solid transparent; -->
-<!--   border-radius:20px; -->
-<!-- } -->
-<!-- </style> -->
+
+## Research
+
 
 <style>
 img{
@@ -56,13 +34,6 @@ iframe {
   vertical-align: middle;
 }
 </style>
-
-  <!-- border: 5px solid red; -->
-  <!-- margin-bottom:5px; -->
-  <!-- margin-left:5px; -->
-  <!-- float: none; -->
-
-## Research
 
 <div class="jumbotron">
 <div class="row align-items-end">

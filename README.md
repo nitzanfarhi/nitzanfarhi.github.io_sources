@@ -127,6 +127,7 @@ For this reason, I decided to build my own theme.
 
 I credit the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
 Many parts of this site were adopted or copied from their laboratory webpage.
+I acknowledge 3Blue1Brown for the pi logo in the `team` page.
 
 ## License
 
