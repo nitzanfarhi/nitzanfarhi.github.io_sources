@@ -9,11 +9,11 @@ permalink: /
 
 Nano-scale transistors fill warehouse-scale supercomputers.
 Still, their performance constrains development of the jets that transport and defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
-The Bryngelson Group develops state-of-the-art **computational models** and **numerical methods** to combat these challenges.
-Our formulations leverage domain expertise in physics and biology and data-driven analysis of simulations, utilizing the latest developments in machine learning and data assimilation.
-We deliver open-source scientific software that utilizes our models and methods and scales to the world's largest computers. 
+The Bryngelson Group develops state-of-the-art **computational models** and **numerical methods** to push these applications forward.
+Our formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
+We deliver open-source scientific software that utilizes these methods and scales to the world's largest computers. 
 
-## Our work
+## Some examples of our work
 
 Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
