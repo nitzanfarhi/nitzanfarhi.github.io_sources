@@ -151,6 +151,8 @@
     Title = {Closure of phase-averaged bubbly, cavitating flow models},
     Booktitle = {XXV International Congress of Theoretical and Applied Mechanics},
     Address = {Milano, Italy},
+    Abstract = {Phase-averaged bubbly flow models are closed by high-order statistical moments of the disperse bubble dynamics. Evaluating these moments in a simulation environment is computationally expensive because the integrands are highly oscillatory. The cost of this closure is demonstrated for an ensemble-averaged bubbly flow model. A machine-learning-based method for accelerating the moment evaluation is formulated.},
+    file = {bryngelson-ICTAM-21.pdf},
 }
 
 @inproceedings{rodriguez_ictam_2021,
@@ -159,6 +161,8 @@
     Title = {A unified {E}ulerian multiphase framework for fluid-structure interaction problems including cavitation},
     Booktitle = {XXV International Congress of Theoretical and Applied Mechanics},
     Address = {Milano, Italy},
+    abstract = {Understanding the impact load mechanisms from cavitation bubbles and shocks emitted by their collapse in and near soliddeformable media is important for engineering and biomedical applications. In such flows, transient pressure fluctuations can lead toa cloud of small vapor bubbles near the solid object. A unified Eulerian framework for fluid-structure interaction problems includingcavitation is developed to incorporate numerically unresolved and resolved bubbles and the solid material elasticity. The numericalmodel uses interface-capturing techniques for the fluid-structure coupling with phase change. The method is based on a high-orderaccurate weighted essentially non-oscillatory shock and interface capturing scheme. Studies of single bubble and cloud dynamics neara solid/compliant structure relevant to therapeutic ultrasound applications are presented.},
+    file = {rodriguez-ICTAM-21.pdf},
 }
 
 @inproceedings{bryngelson_conf20,
@@ -223,18 +227,20 @@
 }
 
 @incollection{conference_1,
-author = {S. H. Bryngelson and T. Colonius},
+  author = {S. H. Bryngelson and T. Colonius},
   title = {A fast-integration-based model for polydisperse bubble cloud dynamics and their two-way-flow coupling},
   note = {Journal of the Acoustical Society of America},
   year = {2021},
 }
 
 @inproceedings{conference_2,
-  author = {S. H. Bryngelson and R. Fox and T. Colonius},
+  author = {S. H. Bryngelson and F. O'Meally and T. Colonius and R. O. Fox},
   title = {Conditional moment method for fully-coupled phase-averaged cavitation models},
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
+  abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler--Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
+ file = {bryngelson-CAV-21.pdf},
 }
 
 @inproceedings{conference_3,
@@ -243,6 +249,8 @@ author = {S. H. Bryngelson and T. Colonius},
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
+  file = {rodriguez-CAV-21.pdf},
+  abstract = {Biomedical therapies use focused ultrasound to treat pathogenic tissues. The ultrasound waves lead to nucleation, grow and collapse of bubbles.  Previous numerical simulations of this process have treated the bubble contents as non-condensible gas, but it is known that phase change affects the bubble dynamics as a function of the driving frequency and waveform.  In this study, we incorporate phase change in the six-equation, multiphase model previously implemented in our Multi-component Flow Code (MFC). The implementation is verified with 1D cavitation and shock problems. To highlight the effects of phase change, we simulate the expansion of a 2D bubble near a solid, rigid boundary to observe phase change near the interface.},
 }
 
 @inproceedings{conference_4,
@@ -251,6 +259,8 @@ author = {S. H. Bryngelson and T. Colonius},
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
+  abstract = {Burst-wave lithotripsy (BWL) is a therapy for ablating kidney and gall bladder stones. During therapy, high-amplitude ultrasound waves issue from a transducer array and focus near the stone. These waves can nucleate clouds of small bubbles at the surface of the stone. This can affect treatment efficacy: acoustic shielding due to the bubble clouds can attenuate stone breakup, though the collapse of individual bubbles can amplify it. Further, these collapses can cause damage to surrounding tissue. Thus, optimizing lithotripsy against potential damage requires predicting bubble-stone interactions. Simulating bubble cloud cavitation is challenging due to the breadth of spatio-temporal scales involved. Additional scale restrictions are associated with soft material dynamics, which interact with the bubble clouds during lithotripsy. The open-source solver MFC can address these challenges. It uses a phase-averaging sub-grid model for bubble cloud cavitation and has been extended to include a hypoelastic Kelvin--Voigt model to compute stresses in stones and nearby soft surfaces. These models are fully-coupled to the fluid dynamics. The capabilities of this approach are demonstrated for a model BWL problem. The stress state in a kidney stone is modeled during treatment.},
+ file = {spratt-CAV-21.pdf},
 }
 
 @incollection{conference_6,
@@ -440,7 +450,8 @@ author = {S. H. Bryngelson and T. Colonius},
 
 @article{bryngelson19_CPC,
     doi = {10.1016/j.cpc.2020.107396},
-    year = 2020,
+    volume = {266},
+    year = 2021,
     pages = {107396},
     Author = {S. H. Bryngelson and K. Schmidmayer and V. Coralic and K. Maeda and J. Meng and T. Colonius},
     title = {{MFC: A}n open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver},
