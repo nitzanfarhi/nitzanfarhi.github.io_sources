@@ -1,40 +1,37 @@
 # Site settings
-title: Bryngelson Research Group
-email: spencer@caltech.edu
-description: Webpage of the Bryngelson Research Group
+title: Nitzan Farhi
+email: nitzanfarhi@mail.tau.ac.il
+description: Webpage of Nitzan Farhi\
 baseurl: ""
 url: ""
 
 # Google analytics ID: Remove or use your own!
-google_analytics: UA-167467135-1
-google_analytics_4: G-02KDGRRB2T
-google_tag_manager: GTM-TZ9Z7HZ
+google_analytics: UA-43124730-2
+google_analytics_4: G-ZKF0SXQQD6
 
 # Footer info
 about: >
-    Prof. Spencer H. Bryngelson<br/>
-    College of Computing, <a href="https://cse.gatech.edu/" target="_blank">CSE</a><br/>
-    Georgia Institute of Technology
+    Nitzan Farhi<br/>
+    School of Electrical Engineering, <a href="https://english.tau.ac.il" target="_blank">TAU</a><br/>
+    Tel Aviv University
 
-coordinates: >
-  <a href="https://codatechsquare.com/" target="_blank">CODA</a><br/>
-  756 W Peachtree St<br/>
-  Atlanta, GA 30332
 
 information: >
-    <a href="mailto:spencer@caltech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Spencer via email</a> <br/>
+    <a href="mailto:nitzanfarhi@mail.tau.ac.il" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Nitzan via email</a> <br/>
     <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use my site as a template!</a> <br/>
     <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a>
 
 
+coordinates: >
+  Haim Levanon 30 St<br/>
+  Tel Aviv, GA 69978 
+
+
+
 # Pages shown in navbar
 nav_pages:
-  - name: team
   - name: publications
-  - name: research
-  - name: software
-
-# - name: about
+  - name: datasets
 # - name: teaching
 
 include:
@@ -65,8 +62,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Bryngelson
-  first_name: [Spencer H.]
+  last_name: Farhi
+  first_name: [Nitzan]
 
   style: shb
   locale: en
